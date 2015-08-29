@@ -54,3 +54,7 @@ After the devices sucessfully connects to one another it srarts playing Gaussian
 13. Check the recorded sound file in the SD card of both the server devices.
 14. Close all the server connection using 'Stop Server'
 15. Close all the client connection using 'Stop Client'.
+
+
+**More Details can be found on:**
+http://pranay22.github.io/Audio-based-probing-of-the-environment/
