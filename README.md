@@ -56,5 +56,5 @@ After the devices sucessfully connects to one another it srarts playing Gaussian
 15. Close all the client connection using 'Stop Client'.
 
 
-**More Details can be found on:**
+**More Details can be found on:**  
 http://pranay22.github.io/Audio-based-probing-of-the-environment/
