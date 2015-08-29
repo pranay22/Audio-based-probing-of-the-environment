@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Audio-based-probing-of-the-environment by pranay22</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+  </head>
+  <body>
+    <section class="page-header">
+      <h1 class="project-name">Audio-based-probing-of-the-environment</h1>
+      <h2 class="project-tagline">Audio-based probing of the environment (Android) done in Communication Networks 2 Project During Winter 2014-15 semester</h2>
+      <a href="https://github.com/pranay22/Audio-based-probing-of-the-environment" class="btn">View on GitHub</a>
+      <a href="https://github.com/pranay22/Audio-based-probing-of-the-environment/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/pranay22/Audio-based-probing-of-the-environment/tarball/master" class="btn">Download .tar.gz</a>
+    </section>
+
+    <section class="main-content">
+      <h1>
+<a id="audio-based-probing-of-the-environment" class="anchor" href="#audio-based-probing-of-the-environment" aria-hidden="true"><span class="octicon octicon-link"></span></a>Audio-based-probing-of-the-environment</h1>
+
+<p>Audio-based probing of the environment (Android) Communication Networks 2 Project in Winter 2014-15 semester at Technische Universität Darmstadt.</p>
+
+<h3>
+<a id="group-members" class="anchor" href="#group-members" aria-hidden="true"><span class="octicon octicon-link"></span></a>Group Members</h3>
+
+<ol>
+<li>Dibyojyoti Sanyal (<a href="https://github.com/Dibyojyoti">https://github.com/Dibyojyoti</a>)  (<a href="https://github.com/Dibyojyoti" class="user-mention">@Dibyojyoti</a>)</li>
+<li>Anirban Chatterjee (<a href="https://github.com/anirban99">https://github.com/anirban99</a>)  (<a href="https://github.com/anirban99" class="user-mention">@anirban99</a>)</li>
+<li>Pranay Sarkar (<a href="https://github.com/pranay22">https://github.com/pranay22</a>)  (<a href="https://github.com/pranay22" class="user-mention">@pranay22</a>)</li>
+</ol>
+
+<h3>
+<a id="system-requirements" class="anchor" href="#system-requirements" aria-hidden="true"><span class="octicon octicon-link"></span></a>System Requirements</h3>
+
+<p>Android 4.1 or higher.</p>
+
+<h3>
+<a id="minimum-number-of-required-devices" class="anchor" href="#minimum-number-of-required-devices" aria-hidden="true"><span class="octicon octicon-link"></span></a>Minimum number of required devices</h3>
+
+<p>This app needs at least three devices to run properly.</p>
+
+<h3>
+<a id="demo-video-of-the-app" class="anchor" href="#demo-video-of-the-app" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo Video of the App</h3>
+
+<p><a href="https://www.youtube.com/watch?v=kQhqLmSzrVo">https://www.youtube.com/watch?v=kQhqLmSzrVo</a></p>
+
+<h3>
+<a id="project-description" class="anchor" href="#project-description" aria-hidden="true"><span class="octicon octicon-link"></span></a>Project Description</h3>
+
+<p>This app does probing of environment based on Audio. To do the probing, at least 3 android devices are needed. In the app, WiFi-Direct is used to communicate between devices (nodes). One node can work as server at one point of time and rest of the noes can work as client. Client/Server mode can be chosen in the main screen.<br>
+After the devices sucessfully connects to one another it srarts playing Gaussian noise and starts probing the environment. Recoded files are stored in lossless format (.flac) in the android devices.</p>
+
+<h3>
+<a id="steps-to-operate-the-android-app" class="anchor" href="#steps-to-operate-the-android-app" aria-hidden="true"><span class="octicon octicon-link"></span></a>Steps to operate the android app</h3>
+
+<p><em>1st scenario: Connecting one client and one server.</em></p>
+
+<ol>
+<li>Open the app in two android devices.</li>
+<li>Open Wifi Direct in both the devices </li>
+<li>Start the server in one device using the button 'Start server'</li>
+<li>Start the client in another device using the button 'start client'</li>
+<li>Client sends a request to connect WifiDirect to the server.</li>
+<li>Accept the request from client device.</li>
+<li>The sounds starts recording automatically.</li>
+<li>Check the recorded sound file in th SD card.</li>
+<li>Close the server connection using 'Stop Server'</li>
+<li>Close the client connection using 'Stop Client'.</li>
+</ol>
+
+<p><em>2nd scenario: Connecting one client with two servers.</em></p>
+
+<ol>
+<li>Open the app in three android devices.</li>
+<li>Open Wifi Direct in all the three devices </li>
+<li>Start the server in one device using the button 'Start server'</li>
+<li>Start the client in another device using the button 'start client'</li>
+<li>Client sends a request to connect WifiDirect to one server device.</li>
+<li>Accept the request from client device.</li>
+<li>The sounds starts recording automatically.</li>
+<li>Meanwhile start the server in the third device as well.</li>
+<li>After recording the sound in the first server device, the client connects to the second server device.</li>
+<li>Client sends a request to connect WifiDirect to the second server device.</li>
+<li>Accept the request from client device.</li>
+<li>The sounds starts recording automatically.</li>
+<li>Check the recorded sound file in the SD card of both the server devices.</li>
+<li>Close all the server connection using 'Stop Server'</li>
+<li>Close all the client connection using 'Stop Client'.</li>
+</ol>
+
+      <footer class="site-footer">
+        <span class="site-footer-owner"><a href="https://github.com/pranay22/Audio-based-probing-of-the-environment">Audio-based-probing-of-the-environment</a> is maintained by <a href="https://github.com/pranay22">pranay22</a>.</span>
+
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a> using the <a href="https://github.com/jasonlong/cayman-theme">Cayman theme</a> by <a href="https://twitter.com/jasonlong">Jason Long</a>.</span>
+      </footer>
+
+    </section>
+
+  
+  </body>
+</html>
