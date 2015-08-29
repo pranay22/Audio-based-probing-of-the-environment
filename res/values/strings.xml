@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ID_A1_8</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="edit_message">Enter Name</string>
+    <string name="button_startwificlient">Start Client</string>
+    <string name="button_startwifiserver">Start Server</string>
+    <string name="button_stopwificlient">Stop Client</string>
+    <string name="button_stopwifiserver">Stop Server</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    
+</resources>
