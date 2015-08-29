@@ -14,7 +14,7 @@ At least three Android devices with version 4.1 or higher.
 
 **Demo Video of the App**
 
-<youtube link>
+https://www.youtube.com/watch?v=kQhqLmSzrVo
 
 **Steps to operate the android app**
 
