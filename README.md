@@ -18,6 +18,7 @@ https://www.youtube.com/watch?v=kQhqLmSzrVo
 
 **Project Description**
 
+
 This app does probing of environment based on Audio. To do the probing, at least 3 android devices are needed. In the app, WiFi-Direct is used to communicate between devices (nodes). One node can work as server at one point of time and rest of the noes can work as client. Client/Server mode can be chosen in the main screen.  
 After the devices sucessfully connects to one another it srarts playing Gaussian noise and starts probing the environment. Recoded files are stored in lossless format (.flac) in the android devices.
 
